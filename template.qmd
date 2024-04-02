@@ -1,0 +1,117 @@
+---
+title: Quarto Template for ICCAT Submissions
+format:
+  iccat-pdf:
+    keep-tex: false  
+published: "Under review at *Starfleet Medical Journal*"
+code-repo: "Access the code, data, and analysis at <https://git.starfleet.ufp/bashir/cranial-implants>"
+correspondence-prefix: "Correspondence concerning this article should be addressed to"
+author:
+  - name: Julian Bashir
+    email: jbashir@starfleet.ufp
+    orcid: 0000-0002-3948-3914
+    title: Chief Medical Officer
+    affiliations: 
+      - id: ds9
+        name: Starbase Deep Space Nine
+        department: Sick Bay
+        address: 1234 Main Street
+        city: Anytown
+        region: NY
+        country: USA
+        postal-code: 90210
+    attributes:
+      corresponding: true
+  - name: Elim Garak
+    email: tailor.spy@obsidianorder.card.gov
+    title: Shopkeeper and Tailor
+    affiliations:
+      - id: terok
+        name: Terok Nor
+        department: Promenade
+      - ref: ds9
+abstract: |
+  Please provide an abstract of no more than 250 words in a single paragraph. Abstracts should explain to the general reader the major contributions of the article. References in the abstract must be cited in full within the abstract itself and cited in the text.
+# runningauthor: "One, Two, and Three"
+# significance: |
+#   Authors must submit a 120-word maximum statement about the significance of their research paper written at a level understandable to an undergraduate educated scientist outside their field of speciality. The primary goal of the significance statement is to explain the relevance of the work in broad context to a broad readership. The significance statement appears in the paper itself and is required for all research papers.
+# author_contributions: "Please provide details of author contributions here."
+# conflict_of_interest: "Please declare any competing interests here."
+# equal-contributor: "A.O.(Author One) contributed equally to this work with A.T. (Author Two) (remove if not applicable)."
+keywords: [template, demo, acknowledgments, scientist, ds9]
+acknowledgements: | 
+  Please include your acknowledgments here, set in a single paragraph. Please do not include any acknowledgments in the Supporting Information, or anywhere else in the manuscript.
+bibliography: bibliography.bib  
+lang: en # Main document language in BCP47 format
+fancyhdr:
+    headleft: "SCRS/2024/XX"
+---
+
+# Introduction
+
+We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic engineering by which I see much of the EM spectrum ranging from heat and infrared through radio waves, et cetera, and forgive me if I've said and listened to this a thousand times [@Lovelace:1842]. This planet's interior heat provides an abundance of geothermal energy. We need to neutralize the homing signal.
+
+# Main section
+
+It indicates a synchronic distortion in the areas emanating triolic waves. The cerebellum, the cerebral cortex, the brain stem,  the entire nervous system has been depleted of electrochemical energy [@Turing:1936]. 
+
+```{r}
+n_lights <- 2 + 2
+n_lights
+```
+
+Any device like that would produce high levels of triolic waves. These walls have undergone some kind of selective molecular polarization. I haven't determined if our phaser energy can generate a stable field. We could alter the photons with phase discriminators.
+
+$$
+y = \text{Something} + \beta_1 x_1
+$$
+
+## Subsection
+
+Communication is not possible [@Keynes:1937]. The shuttle has no power (see @fig-n-lights). 
+
+Using the gravitational pull of a star to slingshot back in time? We are going to Starbase Montgomery for Engineering consultations prompted by minor read-out anomalies. Probes have recorded unusual levels of geological activity in all five planetary systems. 
+
+Assemble a team. Look at records of the Drema quadrant. Would these scans detect artificial transmissions as well as natural signals?
+
+```{r plot-n-lights}
+#| echo: false
+#| label: fig-n-lights
+#| fig-cap: There are four lights
+#| fig-width: 5
+#| fig-height: 1
+#| fig-align: "center"
+par(mar = c(0, 0, 0, 0))
+plot(x = seq(1:n_lights), y = rep(1, 4), col = "darkgoldenrod1", 
+     pch = 8, cex = 4, axes = TRUE, ann = FALSE, xlab = FALSE, ylab = FALSE)
+```
+
+## Other heading
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
+
+### Third
+
+inventore veritatis^[Thing] et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,^[Another thing] 
+
+qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+
+#### A 4th level heading
+
+qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+
+
+## Section X
+
+- At vero eos et accusamus et iusto 
+- odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
+- similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+- Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, 
+
+omnis dolor repellendus. 
+
+1. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae 
+2. sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, 
+3. ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
