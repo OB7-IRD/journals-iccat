@@ -50,3 +50,4 @@ rsconnect/
 
 /.luarc.json
 .DS_Store
+template.fdb_latexmk
