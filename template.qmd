@@ -32,9 +32,6 @@ author:
       - ref: ds9
 abstract: |
   Please provide an abstract of no more than 250 words in a single paragraph. Abstracts should explain to the general reader the major contributions of the article. References in the abstract must be cited in full within the abstract itself and cited in the text.
-# runningauthor: "One, Two, and Three"
-# significance: |
-#   Authors must submit a 120-word maximum statement about the significance of their research paper written at a level understandable to an undergraduate educated scientist outside their field of speciality. The primary goal of the significance statement is to explain the relevance of the work in broad context to a broad readership. The significance statement appears in the paper itself and is required for all research papers.
 # author_contributions: "Please provide details of author contributions here."
 # conflict_of_interest: "Please declare any competing interests here."
 # equal-contributor: "A.O.(Author One) contributed equally to this work with A.T. (Author Two) (remove if not applicable)."
@@ -49,11 +46,38 @@ fancyhdr:
 
 # Introduction
 
+These are the voyages of the Starship Enterprise. Its continuing mission, to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before. We need to neutralize the homing signal. Each unit has total environmental control, gravity, temperature, atmosphere, light, in a protective field. Sensors show energy readings in your area. We had a forced chamber explosion in the resonator coil. Field strength has increased by 3,000 percent.
+
 We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic engineering by which I see much of the EM spectrum ranging from heat and infrared through radio waves, et cetera, and forgive me if I've said and listened to this a thousand times [@Lovelace:1842]. This planet's interior heat provides an abundance of geothermal energy. We need to neutralize the homing signal.
 
 # Main section
 
-It indicates a synchronic distortion in the areas emanating triolic waves. The cerebellum, the cerebral cortex, the brain stem,  the entire nervous system has been depleted of electrochemical energy [@Turing:1936]. 
+## A subsection
+
+It indicates a synchronic distortion in the areas emanating triolic waves. The cerebellum, the cerebral cortex, the brain stem,  the entire nervous system has been depleted of electrochemical energy. Any device like that would produce high levels of triolic waves. These walls have undergone some kind of selective molecular polarization. I haven't determined if our phaser energy can generate a stable field. We could alter the photons with phase discriminators.
+
+
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| A    | B    | C    |
+| E    | F    | G    |
+| A    | G    | G    |
+
+: My Caption {#tbl-letters}
+
+See @tbl-letters.
+
+
+Now what are the possibilities of warp drive? Cmdr Riker's nervous system has been invaded by an unknown microorganism. The organisms fuse to the nerve, intertwining at the molecular level. That's why the transporter's biofilters couldn't extract it. The vertex waves show a K-complex corresponding to an REM state. The engineering section's critical. Destruction is imminent. Their robes contain ultritium, highly explosive, virtually undetectable by your transporter.
+
+Shields up. I recommend we transfer power to phasers and arm the photon torpedoes. Something strange on the detector circuit. The weapons must have disrupted our communicators. You saw something as tasty as meat, but inorganically materialized out of patterns used by our transporters. Captain, the most elementary and valuable statement in science, the beginning of wisdom, is 'I do not know.' All transporters off.
+
+
+### A subsubsection
+
+Geordi's well equipped to deal with the situation, Wes. Right now, your duties are on the bridge. Get away from me...
+
+I... suppose you mean that as a compliment, "Q"... or maybe it\'s my limited mind...  ... but... to become part of you?! I don\'t even like you! [@Turing:1936]. 
 
 ```{r}
 n_lights <- 2 + 2
@@ -66,13 +90,19 @@ $$
 y = \text{Something} + \beta_1 x_1
 $$
 
-## Subsection
+## Another subsection
+
+### Another subsubsection
 
 Communication is not possible [@Keynes:1937]. The shuttle has no power (see @fig-n-lights). 
 
 Using the gravitational pull of a star to slingshot back in time? We are going to Starbase Montgomery for Engineering consultations prompted by minor read-out anomalies. Probes have recorded unusual levels of geological activity in all five planetary systems. 
 
 Assemble a team. Look at records of the Drema quadrant. Would these scans detect artificial transmissions as well as natural signals?
+
+
+
+## Other heading
 
 ```{r plot-n-lights}
 #| echo: false
@@ -86,32 +116,37 @@ plot(x = seq(1:n_lights), y = rep(1, 4), col = "darkgoldenrod1",
      pch = 8, cex = 4, axes = TRUE, ann = FALSE, xlab = FALSE, ylab = FALSE)
 ```
 
-## Other heading
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
 
 ### Third
 
-inventore veritatis^[Thing] et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,^[Another thing] 
+Sensors indicate no shuttle or other ships in this sector^[- USS Reliant - NCC-1864]. According to coordinates, we have travelled 7,000 light years and are located near the system J-25. Tractor beam released, sir. Force field maintaining our hull integrity. Damage report? Sections 27, 28 and 29 on decks four, five and six destroyed. Without our shields, at this range it is probable a photon detonation could destroy the Enterprise.
 
-qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+Deflector power at maximum. Energy discharge in six seconds. Warp reactor core primary coolant failure. Fluctuate phaser resonance frequencies. Resistance is futile. Recommend we adjust shield harmonics to the upper EM band when proceeding. These appear to be some kind of power-wave-guide conduits which allow them to work collectively as they perform ship functions. Increase deflector modulation to upper frequency band.
 
-#### A 4th level heading
+### A 3th level heading
 
-qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+Run a manual sweep of anomalous airborne or electromagnetic readings. Radiation levels in our atmosphere have increased by 3,000 percent. Electromagnetic and subspace wave fronts approaching synchronization. What is the strength of the ship's deflector shields at maximum output? The wormhole's size and short period would make this a local phenomenon. Do you have sufficient data to compile a holographic simulation?
 
-nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+I have reset the sensors to scan for frequencies outside the usual range. By emitting harmonic vibrations to shatter the lattices. We will monitor and adjust the frequency of the resonators. He has this ability of instantly interpreting and extrapolating any verbal communication he hears. It may be due to the envelope over the structure, causing hydrogen-carbon helix patterns throughout. I'm comparing the molecular integrity of that bubble against our phasers.
 
+Unidentified vessel travelling at sub warp speed, bearing 235.7. Fluctuations in energy readings from it, Captain. All transporters off. A strange set-up, but I'd say the graviton generator is depolarized. The dark colourings of the scrapes are the leavings of natural rubber, a type of non-conductive sole used by researchers experimenting with electricity. The molecules must have been partly de-phased by the anyon beam.
 
 ## Section X
 
-- At vero eos et accusamus et iusto 
-- odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
-- similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
-- Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, 
+### USS ship 
 
-omnis dolor repellendus. 
+- USS Yamato - NCC-71807 - Crew discovered Iconian artifacts but is infected by a computer virus that causes antimatter containment loss. The virus causes the ship to explode with all hands lost.
+- USS Defiant NCC-1764 - Taken to Mirror Universe by Tholians, in "The Tholian Web". Captured by crew of ISS Enterprise (NX-01) and used in service of the Terran Empire, in "In a Mirror, Darkly".
+- USS Bradbury - NX-72307 - Scheduled to transport Wesley Crusher to Starfleet Academy and undergoes warp drive performance tests.
 
-1. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae 
-2. sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, 
-3. ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+### Riker dialog
+
+Extract from [@Friedland:2013]
+
+1. Greek, sir? But certainly, history never meant this ship to be led into battle without your captain. That's it! Historical! I remember now that I was reading a history of all the past starships named Enterprise. For me as well. Acknowledged, Captain. We're right behind you.
+2. The trick is to make a knot that tightens under pressure. Here, I'll show you... Everything... then why kidnap me? We should evacuate sections twenty-four to forty-seven on decks thirty-five through thirty-eight. It's pretty clear I've been taken each of the past few nights... if I'm right, there's every chance it'll happen again tonight.
+3. First officer to first officer, Kazago, if your Captain Bok knew of that, why this peaceful meeting to present us with the Stargazer?
+
+# Conclusion
+
+Resistance is futile.

@@ -24,9 +24,9 @@ $else$
 \usepackage[$if(biblio-style)$style=$biblio-style$,$endif$$for(biblatexoptions)$$biblatexoptions$$sep$,$endfor$]{biblatex}
 $endif$
 
-\setlength\bibitemsep{0pt}  % No space between bib entries
-\renewcommand*{\bibfont}{\footnotesize}  % Use smaller font
-\setlength\bibhang{\parindent}  % Match document indentation
+\setlength\bibitemsep{4pt}  %  space between bib entries
+\renewcommand*{\bibfont}{\normalsize} 
+\setlength\bibhang{2em}  % Match document indentation
 
 % Fix biblatex's odd preference for using In: by default.
 \renewbibmacro{in:}{%
@@ -54,18 +54,6 @@ $endif$
 % \makeatother
 % \subtitle{$subtitle$}
 % $endif$
-
-
-% $for(by-author)$
-% {\large $it.name.literal$$if(it.orcid)$~\orcidlink{$it.orcid$}$endif$}%
-% \thanks{$for(it.affiliations)$$it.name$, $endfor$%
-% {\footnotesize \url{$it.email$}}$if(it.attributes.corresponding)$, Corresponding author.$endif$.},%
-% $endfor$
-% % $for(by-author/last)$
-% % {\large $it.name.literal$$if(it.orcid)$~\orcidlink{$it.orcid$}$endif$}%
-% % \thanks{$for(it.affiliations)$$it.name$, $endfor$%
-% % {\footnotesize \url{$it.email$}}$if(it.attributes.corresponding)$, Corresponding author.$endif$.}%
-% % $endfor$
 
 \author{
   $for(by-author/allbutlast)$
