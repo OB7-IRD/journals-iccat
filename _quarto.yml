@@ -1,0 +1,5 @@
+format:
+  iccat-pdf: default
+bibliography:
+  - bibliography.bib
+latex-auto-mk: false

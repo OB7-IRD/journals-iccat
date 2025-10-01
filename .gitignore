@@ -51,3 +51,7 @@ rsconnect/
 /.luarc.json
 .DS_Store
 template.fdb_latexmk
+
+/.quarto/
+template.log
+template.tex
