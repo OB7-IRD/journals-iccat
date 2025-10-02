@@ -56,6 +56,7 @@ $endif$
 % $endif$
 
 \author{
+   \parbox{\linewidth}{\centering
   $for(by-author/allbutlast)$
  $it.name.literal$$if(it.orcid)$~\orcidlink{$it.orcid$}$endif$
  \thanks{$for(it.affiliations)$$it.name$, $endfor$%
@@ -66,7 +67,7 @@ $endif$
  \thanks{$for(it.affiliations)$$it.name$, $endfor$%
 {\footnotesize \url{$it.email$}}$if(it.attributes.corresponding)$, Corresponding author.$endif$.}
  $endfor$
- \\~
+ }
  }
 
 \date{}
